@@ -19,7 +19,7 @@ public class BeverageController : ControllerBase
     }
 
 
-    //Hämta en lista med alla
+    //Hämta en lista med alla drycker
     [HttpGet]
     public async Task<List<BeverageDTO>> GetAllBeveragesAsync()
     {
